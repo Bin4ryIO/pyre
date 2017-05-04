@@ -20,13 +20,15 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name=".CreateAccountActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".features.authentication.CreateAccountActivity" />
+        <activity android:name=".features.authentication.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".features.task.TaskListActivity"></activity>
     </application>
 
 </manifest>

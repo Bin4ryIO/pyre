@@ -4,31 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="xyz.mindworks.pyre.CreateAccountActivity"
+    tools:context="xyz.mindworks.pyre.features.authentication.CreateAccountActivity"
     android:background="@color/colorPrimary">
-
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/linearLayout"
-        android:layout_centerHorizontal="true"
-        android:text="Create an Account"
-        android:textAlignment="center"
-        android:textColor="@color/colorText"
-        android:textSize="30dp"
-        tools:layout_editor_absoluteY="77dp"
-        tools:layout_editor_absoluteX="81dp" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="395dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:orientation="vertical"
-        android:padding="30dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="113dp">
+        android:padding="30dp">
 
         <EditText
             android:id="@+id/nameEditText"
@@ -41,7 +27,7 @@
             android:padding="10dp"
             android:textColor="@android:color/black"
             android:textColorHint="@color/colorDivider"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/emailEditText"
@@ -55,7 +41,7 @@
             android:padding="10dp"
             android:textColor="@android:color/black"
             android:textColorHint="@color/colorDivider"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/passwordEditText"
@@ -69,7 +55,7 @@
             android:padding="10dp"
             android:textColor="@android:color/black"
             android:textColorHint="@color/colorDivider"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/confirmPasswordEditText"
@@ -83,7 +69,7 @@
             android:padding="10dp"
             android:textColor="@android:color/black"
             android:textColorHint="@color/colorDivider"
-            android:textSize="20sp" />
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/createUserButton"
