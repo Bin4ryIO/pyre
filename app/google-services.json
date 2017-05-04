@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "705206949620-qm1c15fc27n3hfgb77v00jb2p61b7lm2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xyz.mindworks.pyre",
+            "certificate_hash": "0edba2d25ea5967e217eaed264140d2f932177e7"
+          }
+        },
+        {
           "client_id": "705206949620-sh160sfal1sds7adq6fr7d988upfovkp.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

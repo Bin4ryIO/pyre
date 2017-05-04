@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         FirebaseDatabase database = FirebaseDatabase.getInstance();
 
         // Get a reference to the todoItems child items it the database
+
         final DatabaseReference myRef = database.getReference("todoItems");
 
         // Assign a listener to detect changes to the child items
